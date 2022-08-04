@@ -1400,9 +1400,9 @@ iframe {
 
 .content-service__image {
 
-  filter: invert(100%);
+  
 
-  width: 45px;
+  width: 70px;
 
   transition: 200ms var(--contentTransitionBezier);
 
@@ -1668,6 +1668,9 @@ iframe {
 
 @media only screen and (max-width: 1200px) {
 
+  .content-service__image{
+    width: 50px;
+  }
   .content-section__image-holder {
 
     width: 150px;
@@ -1683,7 +1686,7 @@ iframe {
   
     position: relative;
   
-    font: 900 20px Roboto, sans-serif;
+    font: 900 30px Roboto, sans-serif;
   
     letter-spacing: var(--letterSpacing);
   
@@ -1762,6 +1765,9 @@ iframe {
 
 
 @media only screen and (max-width: 1000px) {
+  .content-service__image{
+    width: 50px;
+  }
 
   .content {
 
@@ -1971,6 +1977,9 @@ iframe {
 /* Minimum device height; */
 
 @media only screen and (max-height: 450px) {
+  .content-service__image{
+    width: 45px;
+  }
 
   .content-services,
 
@@ -2015,16 +2024,8 @@ iframe {
   }
 
 }
-.content-portfolio__name a{
-  background-color: rgb(184, 0, 0);
-  text-decoration: none;
-  color: white;
-  border: 1px solid red;
-  padding: 10px;
-  height: 90px;
-  width: 150px;
-  border-radius: 50px;
-  transition: all 0.3s ease;
+.blog-button{
+  z-index: 1;
 }
 .content-portfolio__name a:hover{
   transform: scale(1.1);
